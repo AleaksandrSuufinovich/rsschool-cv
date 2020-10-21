@@ -20,9 +20,6 @@
     };
 </pre></code>
 
-
-
-
 6. *Graduated from the online courses of the **'EPAM'** company. In the course of the course, I performed various projects. After completing the courses, I performed freelance projects*
 7. *Graduated from the online courses of the EPAM company. Also watched seminars on YouTube.*
 8. *My English has A1 level elementary, finished school English course.*
