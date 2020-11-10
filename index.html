@@ -3,165 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-    <link href="https://fonts.googleapis.com/css2?family=Contrail+One&family=Staatliches&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-size: 16;
-            background-color: #FFF8DC;
-        }
-        
-        *,
-        *::before,
-        *::after {
-            box-sizing: border-box;
-        }
-        /* container */
-        
-        .container {
-            width: 100%;
-            max-width: 1024px;
-            margin: 0 auto;
-        }
-        /* box */
-        
-        .box__1 {
-            display: flex;
-            justify-content: space-between;
-        }
-        /* info */
-        
-        .info {
-            display: flex;
-            flex-wrap: wrap;
-            max-width: 700px;
-            max-height: 34px;
-            align-self: center;
-        }
-        
-        .info p {
-            margin: 0;
-            padding: 0;
-            width: 50%;
-        }
-        /* box__2 */
-        
-        .box__2 {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-        }
-        /* purpose */
-        
-        .purpose {
-            width: 50%;
-            Padding: 0 20px
-        }
-        /* skills */
-        
-        .skills {
-            width: 50%;
-            Padding: 0 20px
-        }
-        .heading {
-            text-align: center;
-            padding: 0;
-            font-family: Staatliches;
-            font-size: 30px;
-            }
-        /* box__3 */
-        .box__3 {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-        }
-        .code {
-            width: 50%;
-            Padding: 0 20px
-        }
-        .experience {
-            width: 50%;
-            Padding: 0 20px
-        }
-        /* box__4 */
-        .box__4 {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-        }
-        .education {
-            width: 50%;
-            Padding: 0 20px
-        }
-        .levelofenglish {
-            width: 50%;
-            Padding: 0 20px
-        }
-        p {
-            font-family: Contrail One;
-            font-size: 16px;
-
-        }
-    </style>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Didact+Gothic&family=Fjalla+One&family=Luckiest+Guy&display=swap" rel="stylesheet">
 </head>
-<body>
-    <h1 class="heading">Resume</h1>
-    <div class="container">
-        <div class="box__1">
-            <div class="photo">
-                <img src="my photo.jpg" alt="" height="250" width="175">
-            </div>
-            <div class="info">
-                <p><b>Name:</b>Aliaksandr</p>
-                <p><b>Email:</b>alexcooler060296@gmail.com</p>
-                <p><b>Last Name:</b>Sufinovich</p>
-                <p><b>phone number:</b>+375 29 5347137</p>
-            </div>
+<body class="allbox">
+    <div class="leftbox">
+        <img class="photo" src="myphoto_1.jpg">
+        <div>
+            <h1>Sufinovich Aliaksandr</h1>
+            <P>frontend developer</P>
         </div>
-        <div class="box__2">
-            <div class="purpose">
-                <h2 class="heading">PURPOSE</h2>
-                <p>Young, diligent, I want to learn and get new skills and knowledge in the field of Front-end development. I am ready to delve into any aspect of this area. I want to become a good Front-end developer.</p>
-            </div>
-            <div class="skills">
-                <h2 class="heading">SKILL</h2>
-                <p> I speak JavaScript programming language. I have a solid knowledge of HTML, CSS. I have the skills to use Git. Advanced VSCode user.</p>
-            </div>
+        <div id="leftheaders">
+            <h3>Contact</h3>
         </div>
-        <div class="box__3">
-            <div class="code">
-                <h2 class="heading">My code</h2>
-                <pre><code>
-                        const isPrime = (number) => {
-                         if (number < 2) {
-                           return false;
-                        }
-                          let divider = 2;
-                        while (divider <= number / 2) {
-                          if (number % divider === 0) {
-                            return false;
-                        }
-                            divider += 1;
-                        }
-                            return true;
-                        };
-                    </pre></code>
-            </div>
-            <div class="experience">
-                <h2 class="heading">Experience</h2>
-                <p>Graduated from the online courses of the 'EPAM' company. In the course of the course, I performed various projects. After completing the courses, I performed freelance projects.</p>
-            </div>
+        <div id="content">
+            <p>+375 29 5347137</p>
+            <p>alexcooler060296@gmail.com</p>
         </div>
-        <div class="box__4">
-            <div class="education">
-                <h2 class="heading">Education</h2>
-                <p>raduated from the online courses of the EPAM company. Also watched seminars on YouTube.</p>
-            </div>
-            <div class="levelofenglish">
-                <h2 class="heading">Level of english</h2>
-                <p>My English has A1 level elementary, finished school English course.</p>
-            </div>
+        <div id="leftheaders">
+            <h3>Social media</h3>
+        </div>
+        <div id="content">
+            <p>VK: processor_alex</p>
+            <p>Facebook: AliaksandrSufinovich</p>
         </div>
     </div>
+
+    <div class="rightbox">
+       <div id="rightheaders">
+           <h3 class="profile">Profile</h3>
+       </div>
+       <div id="content">
+           <p>I'm a beginner frontend developer. I have the skills of website layout, studied JS, HTML, CSS. I have experience working with them.I have the skills to use Git. Advanced VSCode user.</p>
+       </div>
+       <div id="rightheaders">
+           <h3>Education</h3>
+       </div>
+       <div id="content">
+           <p>Graduated from the online courses of the 'EPAM' company. In the course of the course, I performed various projects. After completing the courses, I performed freelance projects.</p>
+       </div>
+       <div id="rightheaders">
+           <h3>Skills</h3>
+       </div>
+       <div>
+           <ul>
+               <li>Git</li>
+               <li>JS</li>
+               <li>HTML</li>
+               <li>JSS</li>
+               <li>VSCode</li>
+           </ul>
+       </div>
+    </div>
+    
 </body>
 </html>
