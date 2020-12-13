@@ -1,0 +1,134 @@
+body {
+    max-width: 1024px;
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-start;
+}
+.leftbox {
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+}
+.rightbox {
+    background-color: rgb(108, 212, 212);
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+}
+h1 {
+    color: rgb(108, 212, 212);
+    font-family: Anton;
+    font-size: 40px;
+}
+#leftheaders {
+    align-self: stretch;
+    background-color: rgb(108, 212, 212);
+    width: 307px;
+    text-transform: uppercase;
+}
+#content {
+    align-self: flex-start;
+}
+#rightheaders {
+    align-self: flex-start;
+    background-color: rgb(255, 255, 255);
+    width: 657px;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+h3 {
+    padding-left: 20px;
+    font-family: Fjalla One;
+    font-size: 25px;
+}
+#content_1 {
+    align-self: center;
+}
+p {
+    font-family: Didact Gothic;
+    font-size: 20px;
+}
+ul {
+    font-family: Luckiest Guy;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+h1 {
+    font-size: 30px;
+}
+.photo {
+    width: 150px;
+    height: 150px;
+}
+p {
+    font-size: 15px;
+    text-align: left;
+}
+h3 {
+    font-size: 20px;
+}
+ul {
+    font-size: 20px;
+}
+body {
+    width: 94%;
+}
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+    .photo {
+        width: 100px;
+        height: 100px;
+    }
+    p {
+        font-size: 10px;
+        text-align: left;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    ul {
+        font-size: 15px;
+    }
+    body {
+        width: 90%;
+    }
+    }
+
+    @media screen and (max-width: 320px) {
+        h1 {
+            font-size: 15px;
+        }
+        .photo {
+            width: 75px;
+            height: 75px;
+        }
+        p {
+            font-size: 8px;
+            text-align: left;
+        }
+        h3 {
+            font-size: 10px;
+        }
+        ul {
+            font-size: 10px;
+        }
+        body {
+            width: 87%;
+        }
+        }
